@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fresh Meal Restaurant</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link type="image/png" rel="icon" href="/Assests/favicon_io/android-chrome-512x512.png"> -->
+    <link type="image/png" rel="icon" href="/Assests/favicon_io/utensils-solid.svg">
+    <!-- animation on scroll css cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Slick slider [https://kenwheeler.github.io/slick/] cdn for css -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- top header  -->
+    <div class="topbar" id="home">
+        <div class="container flex justify-between">
+            <div class="icons">
+                <a href="#"><img src="./icons/facebook.svg" alt="logo image"></a>               
+                <a href="#"><img src="./icons/twitter.svg" alt="logo image"></a>
+                <a href="#"><img src="./icons/google.svg" alt="logo image"></a>
+                <a href="#"><img src="./icons/instagram.svg" alt="logo image"></a>
+                <a href="#"><img src="./icons/search.svg" alt="logo image"></a>
+            </div>
+            <div class="auth flex item-center">
+                <div>
+                    <img src="./icons/user-icon.svg" alt="user icon">
+                    <a href="#">Log in</a>
+                </div>
+                <span class="divider">
+                    |
+                </span>
+                <div>
+                    <img src="./icons/edit.svg" alt="user icon">
+                    <a href="#">Register Now</a>
+                </div>
+                <span class="divider">
+                    |
+                </span>
+                <div>
+                    <img src="./icons/cart.svg" alt="user icon">
+                    <a href="#">0 Items - (₹ 0.0)</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- main which include top-banner, nav-bar and Hero section of the website -->
+    <main>
+        <nav>
+            <div class="top">
+                <div class="container flex justify-between">
+                    <div class="contact flex item-center">
+                        <img src="./icons/phone.svg" alt="">
+                        <div>
+                            <h5>Call US: (+91) 1200 4500 56</h5>
+                            <h6>E-mail : support@freshmeal.com</h6>
+                        </div>
+                    </div>
+                    <div class="branding flex item-center">
+                        <img src="./icons/logo.svg" alt="">
+                    </div>
+                    <div class="time flex item-center">
+                        <img src="./icons/clock.svg" alt="">
+                        <div>
+                            <h5>Working Hours:</h5>
+                            <h6>Mon - Sat (8.00am - 12.00am)</h6>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar magic-shadow-1" id="navbar1">
+                <div class="container flex justify-center" >
+                    <a href="#home" class="active">Home</a>
+                    <a href="/#about-us">About Us</a>
+                    <a href="/#top-products">Products</a>
+                    <a href="/#blog">Blog</a>
+                    <a href="/#big-deal">Shop</a>
+                    <a href="#services">Services</a>
+                    <a href="">Gallery</a>
+                    <a href="#contact-us">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+        <header class="hero flex item-center">
+            <div class="container">
+                <div class="welcome flex item-center" data-aos="fade-right">
+                    <span>Welcome to</span>
+                     <img src="./icons/logo-2.svg" alt="">
+                </div>
+                <div data-aos="fade-right">
+                    <h1>The World Best <span>Shopping</span> Website</h1>
+                    <p>Serving up delectable delights for over 5 years, Fresh Meal guarantees an unforgettable dining experience with exceptional customer service.</p>
+                </div>
+                    <div data-aos="fade-right">
+                    <button class="btn btn-primary">Read More</button>
+                    <button class="btn btn-secondary">Shop Now</button>
+                </div>
+                <div class="hero-image" data-aos="fade-left">
+                    <img src="./images/straw.png" alt="">
+                </div>
+            </div>
+        </header>
+    </main>
+    <!-- top products card with carousel effect Section -->
+    <section class="top-products" id="top-products">
+        <div class="container">
+            <h1 class="section-heading">Top Products</h1>
+            <div class="slider">
+                <!-- creating slider button -->
+                <button class="slider-button prev-button">
+                    <img src="./icons/pre.svg" alt="">
+                </button>
+                <button class="slider-button next-button">
+                    <img src="./icons/next.svg" alt="">
+                </button>
+                <div class="food-slider">
+                    <!-- food card-1 -->
+                    <div class="food-card magic-shadow-sm">
+                        <div class="product-image flex item-center justify-center">
+                            <img src="./images/plate-1.png" alt="">
+                        </div>
+                        <hr>
+                        <div>
+                            <h2 class="text-center">Summer salad</h2>
+                            <div class="stars flex justify-center item-center">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/star-grey.svg" alt="">
+                                <img src="./icons/star-grey.svg" alt="">
+                            </div>
+                            <div class="price text-center">
+                                ₹ 140
+                            </div>
+                            <div class="flex justify-center">
+                                <button>
+                                    <img src="./icons/cart-2.svg" alt="">
+                                    <span>Add to cart </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- food card-2 -->
+                     <div class="food-card magic-shadow-sm">
+                        <div class="product-image flex item-center justify-center">
+                            <img src="./images/plate-2.png" alt="">
+                        </div>
+                        <hr>
+                        <div>
+                            <h2 class="text-center">Russian salad</h2>
+                            <div class="stars flex justify-center item-center">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/star-grey.svg" alt="">
+                                <img src="./icons/star-grey.svg" alt="">
+                            </div>
+                            <div class="price text-center">
+                                ₹ 160
+                            </div>
+                            <div class="flex justify-center">
+                                <button>
+                                    <img src="./icons/cart-2.svg" alt="">
+                                    <span>Add to cart</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- food card-3 -->
+                     <div class="food-card magic-shadow-sm">
+                        <div class="product-image flex item-center justify-center">
+                            <img src="./images/plate-3.png" alt="">
+                        </div>
+                        <hr>
+                        <div>
+                            <h2 class="text-center">Greek salad</h2>
+                            <div class="stars flex justify-center item-center">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/star-grey.svg" alt="">
+                                <img src="./icons/star-grey.svg" alt="">
+                            </div>
+                            <div class="price text-center">
+                                ₹ 130
+                            </div>
+                            <div class="flex justify-center">
+                                <button>
+                                    <img src="./icons/cart-2.svg" alt="">
+                                    <span>Add to cart</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- food card-4 -->
+                     <div class="food-card magic-shadow-sm">
+                        <div class="product-image flex item-center justify-center">
+                            <img src="./images/plate-4.png" alt="">
+                        </div>
+                        <hr>
+                        <div>
+                            <h2 class="text-center">Cottage pie</h2>
+                            <div class="stars flex justify-center item-center">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/star-grey.svg" alt="">
+                                <img src="./icons/star-grey.svg" alt="">
+                            </div>
+                            <div class="price text-center">
+                                $ 195
+                            </div>
+                            <div class="flex justify-center">
+                                <button>
+                                    <img src="./icons/cart-2.svg" alt="">
+                                    <span>Add to cart</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="text-center btn-wrapper">
+            <button class="btn btn-secondary">View More</button>
+        </div>
+        </div>
+    </section>
+    <!-- About Section of Fresh meal restaurant -->
+    <section class="about-meal" id="about-us">
+        <div class="container">
+            <h1 class="section-heading">About Fresh Meal</h1>
+            <div class="about-meal-wrapper flex">
+                <div class="flex-1" data-aos="zoom-out-up">
+                    <img src="./images/yogurt.png" alt="">
+                </div>
+                <div class="flex-1" data-aos="zoom-out-up">
+                    <h2>Some information abpout fresh meal ,,,,,,,</h2>
+                    <p>At Fresh Meal, we are passionate about creating culinary masterpieces that leave a lasting impression on your palate. With a rich history spanning over 5 years, our commitment to excellence is unwavering. We believe that food should not only be delicious but also nourishing, which is why we handpick the freshest ingredients for every dish. Our team of skilled chefs combines creativity and expertise to craft a diverse menu that caters to all tastes and dietary preferences. We take immense pride in our exceptional customer service, ensuring that every interaction leaves you feeling valued and satisfied. Join us on a gastronomic adventure and experience the magic of Fresh Meal today!
+                    </p>
+                    <button class="btn btn-secondary">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Service Section -->
+    <section class="our-services" id="services">
+        <div class="container">
+            <h1 class="section-heading">Our Services</h1>
+            <div class="card-wrapper flex justify-between">
+                <!-- service card-1 -->
+                <div class="service-card" data-aos="flip-left">
+                    <img class="icon" src="./icons/transport.svg" alt="">
+                    <h2>Free Home devlivery</h2>
+                    <p>Enjoy the convenience of free home delivery, bringing our delicious meals straight to your doorstep!
+                    </p>
+                    <button class="btn btn-secondary">Read More</button>
+                </div>
+                  <!-- service card-2 -->
+                  <div class="service-card" data-aos="flip-up">
+                    <img class="icon" src="./icons/bag.svg" alt="">
+                    <h2 class="text-primary">30 Days Return Services</h2>
+                    <p>Shop with confidence knowing you have 30 days to return your purchase hassle-free.
+                    </p>
+                    <button class="btn btn-primary">Read More</button>
+                </div>
+                  <!-- service card-3 -->
+                  <div class="service-card" data-aos="flip-right">
+                    <img class="icon" src="./icons/usd.svg" alt="">
+                    <h2>Money Back Guaranteed</h2>
+                    <p>Your satisfaction is our priority. Enjoy a worry-free experience with our money-back guarantee.
+                    </p>
+                    <button class="btn btn-secondary">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Big Deal Section -->
+    <section class="big-deal" id="big-deal">
+        <div class="container">
+            <h1 class="section-heading text-pure" >Big Deals of the Week,<span id="ends"> Hurry Up Grab it before it ends.</span></h1>
+        </div>
+        <div class="timer">
+            <div class="timer-1" data-aos="fade-right" data-aos-offset="200" data-aos-duration="400">
+                <span id="days">02</span>
+                <span>Days</span>
+            </div>
+            <div class="timer-1" data-aos="fade-right"  data-aos-offset="200" data-aos-duration="400">
+                <span id="hours">22</span>
+                <span>Hours</span>
+            </div>
+            <div class="timer-1" data-aos="fade-left" data-aos-offset="200" data-aos-duration="400">
+                <span id="mins">30</span>
+                <span>Minutes</span>
+            </div>
+            <div class="timer-1" data-aos="fade-left"  data-aos-offset="200" data-aos-duration="400">
+                <span id="secs">54</span>
+                <span>Seconds</span>
+            </div>
+        </div>
+    </section>
+    <!-- Latest News Section -->
+    <section class="latest-news" >
+        <div class="container" id="blog">
+            <h1 class="section-heading">Latest News From Blog</h1>
+            <div class="article-wrapper">
+                <!-- Article card-1 -->
+                <article class="card">
+                    <div>
+                        <img src="./images/donut.jpg" alt="">
+                    </div>
+                    <div class="card-content magic-shadow-sm">
+                        <div class="post-meta flex item-center justify-between">
+                            <span>July 03, 2023</span>
+                            <div>
+                                <span>Posted by <strong>FreshMeal</strong></span>
+                                <span class="comment-count">67 Comments</span>
+                            </div>
+                        </div>
+                        <h2>"Diving into Donut Delights: Exploring"</h2>
+                        <p>Welcome to our blog page dedicated to the delightful world of donuts! Indulge in 
+                            mouthwatering articles exploring the history, flavors, and creative variations of these sweet treats...
+                            <a href="https://www.vegrecipesofindia.com/eggless-doughnut-recipe-baked-doughnut/" target="_blank">Click here to more.</a>
+                        </p>
+                    </div>
+                </article>
+                     <!-- Article card-2 -->
+                     <article class="card" >
+                        <div>
+                            <img src="./images/coffee.jpg" alt="">
+                        </div>
+                        <div class="card-content magic-shadow-sm">
+                            <div class="post-meta flex item-center justify-between">
+                                <span>June 23, 2023</span>
+                                <div>
+                                    <span>Posted by <strong>FreshMeal</strong></span>
+                                    <span class="comment-count">43 Comments</span>
+                                </div>
+                            </div>
+                            <h2>"Unveiling the Art of Cappuccino"</h2>
+                            <p>Welcome to our blog page all about the enchanting world of cappuccino coffee!
+                                 Immerse yourself in captivating articles that delve into the origins, brewing techniques, 
+                                 and delightful flavors of this beloved beverage...
+                                 <a href="https://www.thespruceeats.com/how-to-make-cappuccinos-766116" target="_blank">Click here to more.</a>
+                            </p>
+                        </div>
+                    </article>
+            </div>
+            <div class="text-center btn-wrapper">
+                <button class="btn btn-secondary">View All</button>
+            </div>
+        </div>
+
+    </section>
+    <!-- Subscribe section -->
+    <section class="subscribe">
+        <div class="container flex item-center">
+            <div class="">
+                <img src="./images/rasberry.png" alt="">
+            </div>
+            <div class="">
+                <h1>Subscribe to our newsletter</h1>
+                <p>Stay in the loop with the latest updates, exclusive offers, and mouthwatering recipes by subscribing to our newsletter today!
+                </p>
+                <div class="input-wrap" data-aos="zoom-out-down">
+                    <input type="email" placeholder="email@freshmeal.com">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact us Section -->
+    <section class="contact-us flex" id="contact-us">
+        <div class="contact-info-wrapper">
+            <h1 class="section-heading">Contact Us</h1>
+            <div class="contact-info" data-aos="fade-right">
+                <div>
+                    <!-- Contact Info-1 -->
+                    <div class="info-1">
+                        <img src="./icons/phone-2.svg" alt="">
+                        <div class="">
+                            <span>Call Us</span>
+                            <span>(+91) 1200 4280 119</span>
+                        </div>
+                    </div>
+                    <!-- Contact Info-2 -->
+                    <div class="info-1">
+                        <img src="./icons/bag-2.svg" alt="">
+                        <div class="">
+                            <span>Email</span>
+                            <span>support@freshmeal.com</span>
+                        </div>
+                    </div>
+                    <!-- Contact Info-3 -->
+                    <div class="info-1">
+                        <img src="./icons/clock-2.svg" alt="">
+                        <div class="">
+                            <span>Working Hours</span>
+                            <span>Mon-Sat (8.00am - 12.00am)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100913.30912824112!2d77.48694488541062!3d12.9670725084905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1689518417441!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container flex justify-between">
+            <div class="footer-about-us footer">
+                <h1 class="text-primary underline text-center">About us</h1>
+                <div class="text-pure footer-font">At Fresh Meal, we are passionate about creating culinary masterpieces that leave a lasting 
+                    impression on your palate. With a rich history spanning over 5 years, 
+                    our commitment to excellence is unwavering....</div>
+                <button class="btn btn-primary footer-btn">Read More</button>
+            </div>
+            <div class="footer-quick-link footer">
+                <h1 class="text-primary underline text-center">Quick links</h1>
+                <div class="footer-font ">
+                    <a href="#home" class="active">Home</a>
+                    <a href="/#about-us">About Us</a>
+                    <a href="/#top-products">Products</a>
+                    <a href="/#blog">Blog</a>
+                    <a href="/#big-deal">Shop</a>
+                    <a href="#services">Services</a>
+                    <a href="">Gallery</a>
+                    <a href="#contact-us">Contact Us</a>
+                </div>
+            </div>
+            <div class="footer-media footer">
+                <h1 class="text-primary underline text-center">Social Media</h1>
+                <div class="footer-font">
+                    <a href="#"><img src="./icons/facebook.svg" alt="logo image"><span class="f-media">Facebook</span></a>               
+                    <a href="#"><img src="./icons/twitter.svg" alt="logo image"><span class="f-media">Twitter</span></a>
+                    <a href="#"><img src="./icons/google.svg" alt="logo image"><span class="f-media">Google</span></a>
+                    <a href="#"><img src="./icons/instagram.svg" alt="logo image"><span class="f-media">Instagram</span></a>
+                </div>
+            </div>
+            <div class="footer-gallery footer">
+                <h1 class="text-primary underline text-center">Instagram</h1>
+                <div class="footer-image">
+                    <img src="./images/plate-1.png" alt="">
+                    <img src="./images/delicious-fried-chicken-plate.jpg" alt="">
+                    <img src="./images/meat-plate-with-potatoes-souce.jpg" alt="">
+                    <img src="./images/plate-4.png" alt="">
+                    <img src="./images/plate-2.png" alt="">
+                    <img src="./images/plate-3.png" alt="">
+                </div>
+            </div>
+            <div class="up-arrow">
+                <a href="#home" class="active"><img src="./icons/circle-up-solid.svg" alt=""></a>
+            </div>
+        </div>
+       
+    </footer>
+    <!-- "Slick slider" [https://kenwheeler.github.io/slick/] cdn for jQuery -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- "Slick slider" [https://kenwheeler.github.io/slick/] cdn for javascript -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- AOS javascript cdn -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset:120,
+            duration:3000
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
